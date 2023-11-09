@@ -1,0 +1,75 @@
+<!-- HTML Document Structure -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Head Section -->
+    <title>UK Towns Map</title>
+    <!-- Load D3.js library -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <!-- Load custom JavaScript code -->
+    <script src="code.js"></script>
+    <!-- Styling for map elements -->
+    <style>
+        /* (CSS code) Styling for country and town shapes */
+        .country {
+            fill: grey;
+            stroke: white;
+        }
+
+        .town {
+            fill: black;
+            stroke: white;
+        }
+
+        /* (CSS code) Hover effect for towns */    
+        .town:hover {
+            fill: red;
+        }
+
+        /* (CSS code) Styling for map container */
+        #map-container {
+            border: 2px solid black;
+            width: 700px;
+            height: 800px;
+            background-color: lightblue;
+            position: relative;
+        }
+
+        body{
+            overflow: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Body Section (html code below) -->
+    <!-- Button to reload data -->
+    <h1> 'A' Literal Map of the UK 
+        
+    </h1>
+
+    <button id="reloadData">Reload Data</button>
+    <!-- Input range for adjusting town count -->
+    <input type="range" id="townCount" min="1" max="500" step="1" value="50">
+    <!-- Display current town count -->
+    <span id="townCountLabel">50</span> Towns
+    <!-- Map container -->
+    <div id="map-container">
+        <!-- Container for town information -->
+        <div id="townInfoContainer">
+            <!-- Display town information -->
+            <span id="townInfo" style="bottom: 0;"></span>
+        </div>
+    </div>
+</body>
+
+</html>
+
+
+<!-- The above HTML & CSS codes simply esthanlish a webpage featuring 
+a webpage featuring a map container, buttons to reload data an input
+range for town count adjustment and styling for countries and towns on
+the map of the United Kingdom. The Maps further appearance 
+and functionality are expexted to be defined and managed in 
+my code.js file  -->
