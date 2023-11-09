@@ -24,3 +24,8 @@ Writing a D3 program that cosumes the feed, this shown in my code.js file which 
 
 As specified by the professor we were asked to add to tooltips which i did and can be seen when one clicks on the points it displays the name of the town and the actual population of the town
 when the towns are reoladed they appear randomly with a bouncing effect on to the map.
+
+References 
+https://github.com/isurueshan/d3ukmap (here i got the outlay for the map) 
+Stack overflow to debug codes 
+Andy Cobleys Lecture slides and Notes for the concepts 
